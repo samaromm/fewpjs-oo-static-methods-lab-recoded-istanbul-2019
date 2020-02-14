@@ -10,6 +10,6 @@ class Formatter {
   }
   
   static titleize(str){
-    str.replace(/\b\w/g, l => l.toUpperCase())
+    return str.replace(/\b\w/g, l => l.toUpperCase())
   }
 }
