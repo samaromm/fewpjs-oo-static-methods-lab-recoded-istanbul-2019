@@ -10,6 +10,6 @@ class Formatter {
   }
   
   static titleize(str){
-    str.replace(/[/\b\w/,a,the,an,but,of,and,for,at,by,from]+/g, l => l.toUpperCase())
+    str.replace(/\b\w/g, l => l.toUpperCase())
   }
 }
