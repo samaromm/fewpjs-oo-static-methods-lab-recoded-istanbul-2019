@@ -12,8 +12,8 @@ class Formatter {
   static titleize(str){
     let strArr= str.split(' ')
     let noC=['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
-    for(let i of strArr){
-      if(noC.includes(i)) {i=i.toLowerCase()}
+    for(let i=1;i<strArr.length;i++){
+      if(!noC.includes(i)) {i=Formatter.capitalize(i)}
     }
     return strArr.join(' ')
   }
