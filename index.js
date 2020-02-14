@@ -11,5 +11,6 @@ class Formatter {
   
   static titleize(str){
     let first= capitalize(str)
+    let noC=[]
   }
 }
