@@ -8,4 +8,8 @@ class Formatter {
   static sanitize(str){
     return str.replace(/[^a-z0-9,' ',-]+/gi, '')
   }
+  
+  static titleize(str){
+    
+  }
 }
