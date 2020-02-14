@@ -10,7 +10,7 @@ class Formatter {
   }
   
   static titleize(str){
-    let strArr= capitalize(str).split(' ')
+    let strArr= Formatter.capitalize(str).split(' ')
     let noC=['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
     for(let i of strArr){
       if(noC.includes(i)) i=i.toLowerCase()
