@@ -10,7 +10,7 @@ class Formatter {
   }
   
   static titleize(str){
-    let first= capitalize(str)
+    let strArr= capitalize(str).split(' ')
     let noC=['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
   }
 }
