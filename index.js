@@ -15,5 +15,6 @@ class Formatter {
     for(let i of strArr){
       if(noC.includes(i)) i=i.toLowerCase()
     }
+    return strArr.join(' ')
   }
 }
