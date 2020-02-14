@@ -10,6 +10,6 @@ class Formatter {
   }
   
   static titleize(str){
-    return str.replace(/\b\w/g, l => l.toUpperCase())
+    let first= capitalize(str)
   }
 }
