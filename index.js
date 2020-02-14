@@ -13,7 +13,7 @@ class Formatter {
     let strArr= str.split(' ')
     let noC=['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
     for(let i=1;i<strArr.length;i++){
-      if(!noC.includes(i)) {i=Formatter.capitalize(i)}
+      if(!noC.includes(strArr[i])) {strArr[i]=Formatter.capitalize(strArr[i])}
     }
     return strArr.join(' ')
   }
