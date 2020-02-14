@@ -11,6 +11,6 @@ class Formatter {
   
   static titleize(str){
     let first= capitalize(str)
-    let noC=[]
+    let noC=['the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from']
   }
 }
